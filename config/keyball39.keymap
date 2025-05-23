@@ -94,10 +94,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &trans                 &kp PAGE_UP             &kp HOME            &kp UP            &kp END            &trans
-&trans   &kp N4  &kp N5  &kp N6  &trans                 &kp PAGE_DOWN           &kp LEFT            &kp DOWN          &kp RIGHT          &kp DEL
-&trans   &kp N7  &kp N8  &kp N9  &kp N0                 &kp LC(LG(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &mo 3  &trans                                                                           &trans
+&kp ESC                     &kp N1  &kp N2  &kp N3  &trans                 &kp PAGE_UP             &kp HOME            &kp UP            &kp END            &kp RSHFT
+&kp LA(LC(LG(LEFT_SHIFT)))  &kp N4  &kp N5  &kp N6  &trans                 &kp PAGE_DOWN           &kp LEFT            &kp DOWN          &kp RIGHT          &kp DEL
+&trans                      &kp N7  &kp N8  &kp N9  &kp N0                 &kp LC(LG(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &trans
+&trans                      &trans  &trans  &trans  &trans  &trans  &mo 3  &trans                                                                           &trans
             >;
         };
 
@@ -119,17 +119,6 @@
 &trans     &kp LG(X)  &kp LG(C)      &kp LG(V)      &trans                  &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_SEL 2
 &trans     &trans     &trans         &trans         &trans  &trans  &trans  &trans                             &bt BT_CLR
             >;
-        };
-
-        quick {
-            bindings = <
-&kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(N3))))  &kp LS(LA(LC(LG(N4))))  &kp LA(LS(LC(LG(N5))))                  &kp LS(LA(LC(LG(N7))))  &kp LS(LA(LC(LG(N8))))  &kp LS(LA(LC(LG(N9))))  &kp LA(LS(LC(LG(N0))))  &trans
-&trans                        &trans                        &trans                  &trans                  &trans                                  &trans                  &trans                  &trans                  &trans                  &trans
-&trans                        &trans                        &trans                  &trans                  &trans                                  &trans                  &trans                  &trans                  &trans                  &trans
-&trans                        &trans                        &trans                  &trans                  &trans                  &trans  &trans  &trans                                                                                          &trans
-            >;
-
-            label = "Q";
         };
     };
 };
