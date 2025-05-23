@@ -160,7 +160,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
-  layer:
+  Q:
   - Hyper+1
   - Hyper+2
   - {t: Hyper+3, s: Hyper+#}
