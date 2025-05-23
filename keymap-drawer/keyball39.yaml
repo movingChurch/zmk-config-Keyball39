@@ -121,11 +121,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+?
   FUN:
-  - F1
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+W
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Gui+Sft+Z
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -135,17 +135,17 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - Alt+Sft+F
   - Gui+Sft+F
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - F6
   - F7
   - F8
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F9
   - F10
   - F11
