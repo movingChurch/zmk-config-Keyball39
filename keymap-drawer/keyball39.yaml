@@ -167,3 +167,5 @@ combos:
   k: $$mdi:mouse-right-click-outline$$
 - p: [12, 13]
   k: Gui+$$mdi:keyboard-space$$
+- p: [11, 12]
+  k: $$mdi:apple-keyboard-shift$$
