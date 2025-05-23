@@ -109,10 +109,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1     &kp LG(W)  &kp LG(Z)  &kp LG(LS(Z))  &none                   &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0
-&kp LG(A)  &kp F6     &kp F7     &kp F8         &none                   &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1
-&kp F9     &kp F10    &kp F11    &kp F12        &none                   &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_SEL 2
-&trans     &trans     &trans     &trans         &trans  &trans  &trans  &trans                             &bt BT_CLR
+&kp F1     &kp LG(W)  &kp LG(Z)      &kp LG(LS(Z))  &none                   &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0
+&kp LG(A)  &kp LG(F)  &kp LA(LS(F))  &kp LG(LS(F))  &none                   &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1
+&kp F9     &kp F10    &kp F11        &kp F12        &none                   &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_SEL 2
+&trans     &trans     &trans         &trans         &trans  &trans  &trans  &trans                             &bt BT_CLR
             >;
         };
     };
