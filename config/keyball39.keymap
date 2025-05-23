@@ -121,13 +121,15 @@
             >;
         };
 
-        layer {
+        quick {
             bindings = <
 &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(N3))))  &kp LS(LA(LC(LG(N4))))  &kp LA(LS(LC(LG(N5))))                  &kp LS(LA(LC(LG(N7))))  &kp LS(LA(LC(LG(N8))))  &kp LS(LA(LC(LG(N9))))  &kp LA(LS(LC(LG(N0))))  &trans
 &trans                        &trans                        &trans                  &trans                  &trans                                  &trans                  &trans                  &trans                  &trans                  &trans
 &trans                        &trans                        &trans                  &trans                  &trans                                  &trans                  &trans                  &trans                  &trans                  &trans
 &trans                        &trans                        &trans                  &trans                  &trans                  &trans  &trans  &trans                                                                                          &trans
             >;
+
+            label = "Q";
         };
     };
 };
