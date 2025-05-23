@@ -125,7 +125,7 @@ layers:
   - Gui+W
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - Gui+Sft+Z
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Gui+T
   - F1
   - F2
   - F3
