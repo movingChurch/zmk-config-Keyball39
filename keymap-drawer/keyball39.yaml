@@ -41,7 +41,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: /, s: '?'}
   NUM:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -60,7 +60,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -81,36 +81,36 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - $$mdi:bluetooth-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
+  - Sft+!
+  - Sft+@
+  - Sft+#
   - {t: '=', s: +}
+  - {t: '`', s: '~'}
+  - {t: '''', s: '"'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '''', s: '"'}
+  - {t: \, s: '|'}
+  - Sft+_
+  - Sft+$
+  - Sft+%
+  - Sft+^
+  - Sft++
+  - Sft+~
+  - Sft+"
+  - Sft+{
+  - Sft+}
+  - Sft+|
   - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
+  - 'Sft+:'
+  - {t: ;, s: ':'}
+  - Sft+<
+  - Sft+>
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - _
-  - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - \
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -119,7 +119,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+?
   FUN:
   - F1
   - F2
