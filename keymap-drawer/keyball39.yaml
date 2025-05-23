@@ -165,3 +165,5 @@ combos:
   k: $$mdi:mouse-left-click-outline$$
 - p: [18, 17]
   k: $$mdi:mouse-right-click-outline$$
+- p: [12, 13]
+  k: Gui+$$mdi:keyboard-space$$
