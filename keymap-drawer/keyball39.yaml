@@ -132,9 +132,9 @@ layers:
   - F4
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - F6
-  - F7
-  - F8
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - Alt+Sft+F
+  - Gui+Sft+F
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
   - F6
