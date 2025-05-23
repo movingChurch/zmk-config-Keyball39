@@ -122,16 +122,16 @@ layers:
   - Sft+?
   FUN:
   - F1
-  - F2
-  - F3
-  - F4
+  - Gui+W
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+Sft+Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
   - F3
   - F4
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - F5
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - F6
   - F7
   - F8
