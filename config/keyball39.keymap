@@ -71,6 +71,11 @@
             bindings = <&mkp RCLK>;
             key-positions = <18 17>;
         };
+
+        langchange {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
