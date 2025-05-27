@@ -99,10 +99,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&none   &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &none                         &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH
-&none   &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &none                         &none      &none      &kp SEMI  &kp APOS  &trans
-&none   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)                  &none      &kp COMMA  &kp DOT   &kp FSLH  &trans
-&trans  &trans        &trans         &trans         &trans        &trans  &trans  &trans                                    &trans
+&kp GRAVE  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &none                         &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH
+&none      &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &none                         &none      &none      &kp SEMI  &kp APOS  &trans
+&none      &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)                  &none      &kp COMMA  &kp DOT   &kp FSLH  &trans
+&trans     &trans        &trans         &trans         &trans        &trans  &trans  &trans                                    &trans
             >;
         };
 
