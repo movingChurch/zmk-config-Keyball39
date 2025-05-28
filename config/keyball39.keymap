@@ -64,12 +64,12 @@
 
         langchange {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <12 13>;
+            key-positions = <13 16>;
         };
 
         mouse {
             bindings = <&mo 4>;
-            key-positions = <2 3>;
+            key-positions = <12 13>;
         };
 
         tab {
