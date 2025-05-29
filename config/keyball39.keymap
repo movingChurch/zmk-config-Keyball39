@@ -82,7 +82,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "QWRT";
+            label = "Default";
             bindings = <
 &kp Q      &kp W     &kp E     &kp R           &kp T                    &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S     &kp D     &kp F           &kp G                    &kp H      &kp J  &kp K      &kp L    &kp BSPC
@@ -92,27 +92,27 @@
         };
 
         number_layer {
-            label = "NUM";
+            label = "Number";
             bindings = <
-&kp ESC                     &kp N1  &kp N2  &kp N3  &none                   &kp PAGE_UP             &kp HOME            &kp UP            &kp END            &kp RSHFT
-&kp LA(LC(LG(LEFT_SHIFT)))  &kp N4  &kp N5  &kp N6  &none                   &kp PAGE_DOWN           &kp LEFT            &kp DOWN          &kp RIGHT          &kp DELETE
-&none                       &kp N7  &kp N8  &kp N9  &kp N0                  &kp LC(LG(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &trans
-&trans                      &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                           &trans
+&kp ESC                     &kp N1  &kp N2  &kp N3  &none                  &kp PAGE_UP             &kp HOME            &kp UP            &kp END            &none
+&kp LA(LC(LG(LEFT_SHIFT)))  &kp N4  &kp N5  &kp N6  &none                  &kp PAGE_DOWN           &kp LEFT            &kp DOWN          &kp RIGHT          &kp LEFT_SHIFT
+&none                       &kp N7  &kp N8  &kp N9  &kp N0                 &kp LC(LG(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &trans
+&trans                      &trans  &trans  &trans  &trans  &trans  &mo 3  &trans                                                                           &trans
             >;
         };
 
         symbol_layer {
-            label = "SYM";
+            label = "Symbol";
             bindings = <
-&none   &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &none                         &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &none
-&none   &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &none                         &none      &none      &kp SEMI  &kp APOS  &trans
-&none   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)                  &none      &none      &trans    &trans    &trans
-&trans  &trans        &trans         &trans         &trans        &trans  &trans  &trans                                    &trans
+&none   &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &none                        &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &none
+&none   &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &none                        &none      &none      &kp SEMI  &kp APOS  &trans
+&none   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)                 &none      &none      &trans    &trans    &trans
+&trans  &trans        &trans         &trans         &trans        &mo 3  &trans  &trans                                    &trans
             >;
         };
 
         function_layer {
-            label = "FUN";
+            label = "Function";
             bindings = <
 &none      &kp LG(W)  &kp LG(Z)      &kp LG(LS(Z))  &kp LC(LG(T))                &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0
 &kp LG(A)  &kp LG(F)  &kp LA(LS(F))  &kp LG(LS(F))  &none                        &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1
@@ -129,7 +129,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans
             >;
 
-            label = "mouse";
+            label = "Mouse";
         };
     };
 };
