@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball39}
 layers:
-  QWRT:
+  Default:
   - Q
   - W
   - E
@@ -36,11 +36,11 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - NUM
-  - SYM
+  - Number
+  - Symbol
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - FUN
-  NUM:
+  - Function
+  Number:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -50,7 +50,7 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+Ctl+Gui+$$mdi:apple-keyboard-shift$$
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -60,7 +60,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -77,10 +77,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - Function
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  SYM:
+  Symbol:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Sft+!
   - Sft+@
@@ -116,11 +116,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Function
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  FUN:
+  Function:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+W
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
@@ -156,11 +156,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  mouse:
+  Mouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -204,6 +204,6 @@ combos:
 - p: [13, 16]
   k: Gui+$$mdi:keyboard-space$$
 - p: [12, 13]
-  k: mouse
+  k: Mouse
 - p: [11, 12]
   k: $$mdi:keyboard-tab$$
