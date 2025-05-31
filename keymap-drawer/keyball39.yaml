@@ -62,9 +62,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Hyper+$$mdi:keyboard-space$$
   - END
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Hyper+$$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-down-bold$$
