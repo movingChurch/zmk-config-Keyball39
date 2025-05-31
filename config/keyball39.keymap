@@ -84,10 +84,10 @@
         number_layer {
             label = "Number";
             bindings = <
-&kp N1  &kp N2       &kp N3    &kp N4         &kp N5                 &kp N6                      &kp N7              &kp N8            &kp N9             &kp N0
-&none   &kp PAGE_UP  &kp HOME  &kp PAGE_DOWN  &none                  &kp LEFT                    &kp DOWN            &kp UP            &kp RIGHT          &kp LEFT_SHIFT
-&none   &none        &kp END   &none          &none                  &kp LC(LG(LEFT_ARROW))      &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &none
-&trans  &trans       &trans    &trans         &trans  &trans  &mo 3  &kp LA(LC(LG(LEFT_SHIFT)))                                                           &trans
+&kp N1  &kp N2                     &kp N3    &kp N4                   &kp N5                 &kp N6                      &kp N7              &kp N8            &kp N9             &kp N0
+&none   &kp PAGE_UP                &kp HOME  &kp PAGE_DOWN            &none                  &kp LEFT                    &kp DOWN            &kp UP            &kp RIGHT          &kp LEFT_SHIFT
+&none   &kp LS(LA(LC(LG(SPACE))))  &kp END   &kp LS(LC(LA(LG(TAB))))  &none                  &kp LC(LG(LEFT_ARROW))      &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &none
+&trans  &trans                     &trans    &trans                   &trans  &trans  &mo 3  &kp LA(LC(LG(LEFT_SHIFT)))                                                           &trans
             >;
         };
 
