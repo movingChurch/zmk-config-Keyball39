@@ -59,24 +59,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        langchange {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <13 16>;
-        };
-
-        mouse {
-            bindings = <&mo 4>;
-            key-positions = <12 13>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -84,19 +67,19 @@
         default_layer {
             label = "Default";
             bindings = <
-&kp Q      &kp W     &kp E     &kp R           &kp T                    &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S     &kp D     &kp F           &kp G                    &kp H      &kp J  &kp K      &kp L    &kp BSPC
-&kp Z      &kp X     &kp C     &kp V           &kp B                    &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
-&kp LCTRL  &kp LALT  &kp LGUI  &kp LEFT_SHIFT  &kp SPACE  &mo 1  &mo 2  &kp ENTER                             &mo 3
+&kp Q      &kp W     &kp E     &kp R           &kp T                    &kp Y    &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S     &kp D     &kp F           &kp G                    &kp H    &kp J  &kp K      &kp L    &kp BSPC
+&kp Z      &kp X     &kp C     &kp V           &kp B                    &kp N    &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&kp LCTRL  &kp LALT  &kp LGUI  &kp LEFT_SHIFT  &kp SPACE  &mo 1  &mo 2  &kp TAB                             &kp ESCAPE
             >;
         };
 
         number_layer {
             label = "Number";
             bindings = <
-&kp ESC                     &kp N1  &kp N2  &kp N3  &none                  &kp PAGE_UP             &kp HOME            &kp UP            &kp END            &none
-&kp LA(LC(LG(LEFT_SHIFT)))  &kp N4  &kp N5  &kp N6  &none                  &kp PAGE_DOWN           &kp LEFT            &kp DOWN          &kp RIGHT          &kp LEFT_SHIFT
-&none                       &kp N7  &kp N8  &kp N9  &kp N0                 &kp LC(LG(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &trans
+&kp N1                      &kp N2  &kp N3  &kp N4  &kp N5                 &kp N6                  &kp N7              &kp N8            &kp N9             &kp N0
+&kp LA(LC(LG(LEFT_SHIFT)))  &none   &none   &none   &none                  &kp LEFT                &kp DOWN            &kp UP            &kp RIGHT          &kp LEFT_SHIFT
+&none                       &none   &none   &none   &none                  &kp LC(LG(LEFT_ARROW))  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(LG(RIGHT))  &kp LA(LC(LG(LEFT_SHIFT)))
 &trans                      &trans  &trans  &trans  &trans  &trans  &mo 3  &trans                                                                           &trans
             >;
         };
@@ -104,10 +87,10 @@
         symbol_layer {
             label = "Symbol";
             bindings = <
-&none   &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &none                        &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &none
-&none   &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &none                        &none      &none      &kp SEMI  &kp APOS  &trans
-&none   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)                 &none      &none      &trans    &trans    &trans
-&trans  &trans        &trans         &trans         &trans        &mo 3  &trans  &trans                                    &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                 &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)
+&none             &none             &none             &none             &none                            &kp MINUS         &kp EQUAL         &kp LBKT          &kp RBKT          &kp BSLH
+&none             &none             &none             &none             &none                            &kp SEMI          &kp APOS          &kp COMMA         &kp DOT           &kp FSLH
+&trans            &trans            &trans            &trans            &kp LG(SPACE)     &mo 3  &trans  &trans                                                                  &kp GRAVE
             >;
         };
 
@@ -123,10 +106,10 @@
 
         mouse_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans
+&none  &none  &none  &none  &none                &none  &none      &none      &none  &none
+&none  &none  &none  &none  &none                &none  &mkp LCLK  &mkp RCLK  &none  &none
+&none  &none  &none  &none  &none                &none  &none      &none      &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none                               &none
             >;
 
             label = "Mouse";
