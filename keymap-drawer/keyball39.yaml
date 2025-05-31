@@ -51,7 +51,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: Mouse, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - HOME
   - PgDn
@@ -91,27 +91,27 @@ layers:
   - Sft+8
   - Sft+9
   - Sft+0
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+-, s: Sft+_}
+  - {t: Sft+=, s: Sft++}
+  - {t: 'Sft+[', s: 'Sft+{'}
+  - {t: 'Sft+]', s: 'Sft+}'}
+  - {t: Sft+\, s: Sft+|}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+;, s: 'Sft+:'}
+  - Sft+.
+  - {t: 'Sft+,', s: Sft+<}
+  - {t: Sft+., s: Sft+>}
+  - {t: Sft+/, s: 'Sft+?'}
   - {t: ;, s: ':'}
   - .
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+`, s: Sft+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -167,14 +167,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Default, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
@@ -200,3 +200,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+combos:
+- p: [12, 13]
+  k: Mouse
